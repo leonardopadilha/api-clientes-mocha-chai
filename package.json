@@ -1,0 +1,23 @@
+{
+  "name": "api-clientes-exemplo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/ --reporter mochawesome --require babel-register --timeout 10000 --exit"
+  },
+  "author": "Leonardo Padilha",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.1.3",
+    "mochawesome": "^7.0.0"
+  },
+  "dependencies": {
+    "chai-json-schema": "^1.5.1"
+  }
+}

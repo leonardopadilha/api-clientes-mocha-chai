@@ -1,0 +1,12 @@
+node_modules/
+
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.html
+*.woff
+*.woff2
+*.mochawesome*
